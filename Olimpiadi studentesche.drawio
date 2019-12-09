@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-09T18:27:54.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="Q4aIXhYoW7Bq1z2ixWD2" version="12.3.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-09T18:37:24.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="VJJghx4HlK4mkLYW3ypE" version="12.3.9" type="github" pages="3">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R">
     <mxGraphModel dx="1185" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -177,6 +177,11 @@
             <mxPoint x="720" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="o2z-mJaPJixe0KtIWwG4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;endArrow=oval;endFill=1;endSize=10;" edge="1" parent="1" source="b5MTkoH9KLdbnuGjaZCg-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="-30" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b5MTkoH9KLdbnuGjaZCg-45" value="Premio" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;fontSize=20;comic=0;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="-120" width="120" height="40" as="geometry"/>
         </mxCell>
@@ -317,16 +322,6 @@
         <mxCell id="LFXWD2qSY829Mt4aABdm-30" value="Nome" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="-190" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="LFXWD2qSY829Mt4aABdm-31" value="" style="endArrow=oval;html=1;endFill=1;endSize=10;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="-120" as="sourcePoint"/>
-            <mxPoint x="680" y="-160" as="targetPoint"/>
-            <Array as="points"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LFXWD2qSY829Mt4aABdm-32" value="ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="660" y="-190" width="40" height="20" as="geometry"/>
-        </mxCell>
         <mxCell id="LFXWD2qSY829Mt4aABdm-33" value="" style="endArrow=oval;html=1;endFill=0;endSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="760" y="-120" as="sourcePoint"/>
@@ -384,7 +379,7 @@
             <Array as="points"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LFXWD2qSY829Mt4aABdm-44" value="Posizione&lt;br&gt;Classifica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="LFXWD2qSY829Mt4aABdm-44" value="Posizione&lt;br&gt;classifica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="370" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="LFXWD2qSY829Mt4aABdm-46" value="" style="endArrow=oval;html=1;endFill=0;endSize=10;" parent="1" edge="1">
@@ -589,6 +584,16 @@
         <mxCell id="V-vhEgvPOVv-jiupzH60-2" value="Sesso" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="740" y="340" width="40" height="20" as="geometry"/>
         </mxCell>
+        <mxCell id="o2z-mJaPJixe0KtIWwG4-3" value="Posizione classifica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-20" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="o2z-mJaPJixe0KtIWwG4-5" value="" style="endArrow=oval;html=1;endFill=1;endSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609" y="-50" as="sourcePoint"/>
+            <mxPoint x="790" y="-50" as="targetPoint"/>
+            <Array as="points"/>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -597,14 +602,14 @@
       <root>
         <mxCell id="AKuUJwsnepmlqYCTzwLg-0"/>
         <mxCell id="AKuUJwsnepmlqYCTzwLg-1" parent="AKuUJwsnepmlqYCTzwLg-0"/>
-        <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte da studenti dello stesso sesso&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
+        <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte solo da studenti dello stesso sesso della competizione&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
           <mxGeometry x="10" y="10" width="810" height="620" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="8BNgQVcgXsx-lp5NDGUs" name="Schema Logico">
-    <mxGraphModel dx="1662" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XM8a0sqWQ-42bQUzT7HB-0"/>
         <mxCell id="XM8a0sqWQ-42bQUzT7HB-1" parent="XM8a0sqWQ-42bQUzT7HB-0"/>

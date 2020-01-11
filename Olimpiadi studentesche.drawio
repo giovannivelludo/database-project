@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-11T15:53:52.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="PhPrrsDnN3nEg1-8dEbf" version="12.5.1" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-11T15:56:03.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="CYPkLMO1XLPz00Y9Fwvi" version="12.5.1" type="github" pages="3">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R">
     <mxGraphModel dx="1550" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -522,7 +522,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8BNgQVcgXsx-lp5NDGUs" name="Schema Logico">
-    <mxGraphModel dx="1069" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="886" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XM8a0sqWQ-42bQUzT7HB-0"/>
         <mxCell id="XM8a0sqWQ-42bQUzT7HB-1" parent="XM8a0sqWQ-42bQUzT7HB-0"/>
@@ -677,8 +677,8 @@
         <mxCell id="Lh-221xK1BHl3yZJELa8-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontSize=20;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
           <mxGeometry x="296" y="640" width="91" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="WdDGLeG-lzyYv0ykFc8S-0" value="STUDIA(&lt;u&gt;Atleta,Nome Corso, Università)&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
-          <mxGeometry x="200" y="550" width="40" height="20" as="geometry"/>
+        <mxCell id="WdDGLeG-lzyYv0ykFc8S-0" value="STUDIA(&lt;u&gt;Atleta,Nome Corso, Università&lt;/u&gt;, Anno Accademico&lt;u&gt;)&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
+          <mxGeometry x="280" y="550" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="WdDGLeG-lzyYv0ykFc8S-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="XM8a0sqWQ-42bQUzT7HB-1" source="WdDGLeG-lzyYv0ykFc8S-1">
           <mxGeometry relative="1" as="geometry">
@@ -686,7 +686,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WdDGLeG-lzyYv0ykFc8S-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontSize=20;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
-          <mxGeometry x="122" y="545" width="50" height="30" as="geometry"/>
+          <mxGeometry x="116" y="545" width="50" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="tor51RlZJSDEBh4tC0hR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="XM8a0sqWQ-42bQUzT7HB-1" source="tor51RlZJSDEBh4tC0hR-0">
           <mxGeometry relative="1" as="geometry">
@@ -694,7 +694,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tor51RlZJSDEBh4tC0hR-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontSize=20;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
-          <mxGeometry x="180" y="545" width="210" height="30" as="geometry"/>
+          <mxGeometry x="174" y="545" width="210" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="lxLiKMMbfCYoMtL_05K4-0" value="COMPETIZIONE(&lt;u&gt;Sesso, Disciplina, Sport, Olimpiade&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
           <mxGeometry x="1180" y="269.83" width="40" height="20" as="geometry"/>

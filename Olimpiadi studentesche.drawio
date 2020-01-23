@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-23T16:28:49.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="3k2YnemgGMitfkcPhXYt" version="12.5.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-23T18:01:25.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="2cZnbw_riOIqrdBLDDP_" version="12.5.6" type="github" pages="3">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R">
     <mxGraphModel dx="1422" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -511,16 +511,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LeQLZgYR_WFejWfW08dt" name="Regole di vincolo">
-        <mxGraphModel dx="1550" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="AKuUJwsnepmlqYCTzwLg-0"/>
-                <mxCell id="AKuUJwsnepmlqYCTzwLg-1" parent="AKuUJwsnepmlqYCTzwLg-0"/>
-                <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte solo da studenti dello stesso sesso della competizione&lt;/li&gt;&lt;li&gt;Gli atleti facenti parte di una squadra devono essere della stessa nazionalità&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Dubbi:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Nel caso di atleti che hanno cambiato nazionalità, come tenere traccia della storia della relazione tra nazionalità ed atleta?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
-                    <mxGeometry x="10" y="10" width="810" height="620" as="geometry"/>
-                  </mxCell>
-              </root>
-          </mxGraphModel>
-      </diagram>
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="AKuUJwsnepmlqYCTzwLg-0"/>
+        <mxCell id="AKuUJwsnepmlqYCTzwLg-1" parent="AKuUJwsnepmlqYCTzwLg-0"/>
+        <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte solo da studenti dello stesso sesso della competizione&lt;/li&gt;&lt;li&gt;Gli atleti facenti parte di una squadra devono essere della stessa nazionalità&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Dubbi:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Nel caso di atleti che hanno cambiato nazionalità, come tenere traccia della storia della relazione tra nazionalità ed atleta?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
+          <mxGeometry x="10" y="10" width="810" height="620" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="8BNgQVcgXsx-lp5NDGUs" name="Schema Logico">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -654,7 +654,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="900" y="470" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="1465" y="510"/>
+              <mxPoint x="1535" y="510"/>
               <mxPoint x="900" y="510"/>
             </Array>
           </mxGeometry>

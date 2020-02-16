@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-15T19:08:59.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="GtnD56oC_f8FvwVGDOhk" version="12.7.0" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-02-16T17:47:07.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="r92thvSOOUrd1bH7BrQl" version="12.7.0" type="github" pages="5">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R">
     <mxGraphModel dx="2031" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -526,16 +526,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LeQLZgYR_WFejWfW08dt" name="Regole di vincolo">
-    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="AKuUJwsnepmlqYCTzwLg-0"/>
-        <mxCell id="AKuUJwsnepmlqYCTzwLg-1" parent="AKuUJwsnepmlqYCTzwLg-0"/>
-        <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte solo da studenti dello stesso sesso della competizione&lt;/li&gt;&lt;li&gt;Gli atleti facenti parte di una squadra devono essere della stessa nazionalità&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Dubbi:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Nel caso di atleti che hanno cambiato nazionalità, come tenere traccia della storia della relazione tra nazionalità ed atleta?&lt;/li&gt;&lt;li&gt;Come identificare città diverse con lo stesso nome nella stessa nazione? Potremmo mettere nel nome della città anche quello della provincia o regione di cui fa parte, ad esempio potremmo avere come nome &quot;Cittadella, PD&quot; oppure &quot;Springfield, Massachusetts&quot;.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
-          <mxGeometry x="10" y="10" width="810" height="620" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+        <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="AKuUJwsnepmlqYCTzwLg-0"/>
+                <mxCell id="AKuUJwsnepmlqYCTzwLg-1" parent="AKuUJwsnepmlqYCTzwLg-0"/>
+                <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte solo da studenti dello stesso sesso della competizione&lt;/li&gt;&lt;li&gt;Gli atleti facenti parte di una squadra devono essere della stessa nazionalità&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Dubbi:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Nel caso di atleti che hanno cambiato nazionalità, come tenere traccia della storia della relazione tra nazionalità ed atleta?&lt;/li&gt;&lt;li&gt;Come identificare città diverse con lo stesso nome nella stessa nazione? Potremmo mettere nel nome della città anche quello della provincia o regione di cui fa parte, ad esempio potremmo avere come nome &quot;Cittadella, PD&quot; oppure &quot;Springfield, Massachusetts&quot;.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
+                    <mxGeometry x="10" y="10" width="810" height="620" as="geometry"/>
+                  </mxCell>
+              </root>
+          </mxGraphModel>
+      </diagram>
   <diagram id="8BNgQVcgXsx-lp5NDGUs" name="Schema Logico">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -806,6 +806,17 @@
         </mxCell>
         <mxCell id="98twEIbZbpKBE5r1BNn9-0" value="" style="rounded=0;whiteSpace=wrap;fontSize=20;labelBackgroundColor=#ffffff;endArrow=classic;html=1;fillColor=none;" parent="XM8a0sqWQ-42bQUzT7HB-1" vertex="1">
           <mxGeometry x="176" y="264.83" width="75" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z1_4L5-2i1G7JPc17Aq_" name="Volumi">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Gdguqw_9_X-gnsZwM5On-0"/>
+        <mxCell id="Gdguqw_9_X-gnsZwM5On-1" parent="Gdguqw_9_X-gnsZwM5On-0"/>
+        <mxCell id="Un-scxn2PIMvwatMJMpC-0" value="&lt;table style=&quot;width: 100% ; height: 100% ; border-collapse: collapse ; border: 1px solid rgb(0 , 0 , 0)&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; border=&quot;1&quot; align=&quot;left&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;th align=&quot;left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Concetto&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Tipo&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/th&gt;&lt;td&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Volume&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;Atleta&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;100000&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;Squadra&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;64000&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;Olimpiade universitaria&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;32&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sponsor&lt;br&gt;&lt;/td&gt;&lt;td&gt;E&lt;br&gt;&lt;/td&gt;&lt;td&gt;2000&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;Competizione&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;E&lt;br&gt;&lt;/td&gt;&lt;td&gt;9000&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sport&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;30&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Disciplina&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;370&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Città&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;30&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Nazione&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;200&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Università&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;25000&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Corso&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;E&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;500000&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#000000;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="Gdguqw_9_X-gnsZwM5On-1">
+          <mxGeometry x="10" y="10" width="580" height="350" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

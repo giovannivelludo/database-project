@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-17T01:07:39.841Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="1dyQk7PmB30Am_BMf0ef" version="12.7.0" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-02-17T01:08:30.538Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="QakPf4UCxQirOTVuOHKx" version="12.7.0" type="github" pages="7">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R ristrutturato">
     <mxGraphModel dx="1103" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1211,8 +1211,8 @@
         <mxCell id="VQsSsuw5P2XIsW2hkpGK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelBackgroundColor=#ffffff;endArrow=classic;fillColor=none;" parent="XM8a0sqWQ-42bQUzT7HB-1" vertex="1">
           <mxGeometry x="1141" y="518.5" width="76" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="gpUSpz2yH7AiscEhKb5U-0" value="UNIVERSIT&lt;span style=&quot;text-align: left; white-space: nowrap;&quot;&gt;À(&lt;u&gt;Nome&lt;/u&gt;, Telefono, Città)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontSize=20;labelBackgroundColor=none;endArrow=classic;" parent="XM8a0sqWQ-42bQUzT7HB-1" vertex="1">
-          <mxGeometry x="1084" y="713" width="40" height="20" as="geometry"/>
+        <mxCell id="gpUSpz2yH7AiscEhKb5U-0" value="UNIVERSIT&lt;span style=&quot;text-align: left ; white-space: nowrap&quot;&gt;À(&lt;u&gt;Nome&lt;/u&gt;, Telefono, Città, Ori, Argenti, Bronzi)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontSize=20;labelBackgroundColor=none;endArrow=classic;" parent="XM8a0sqWQ-42bQUzT7HB-1" vertex="1">
+          <mxGeometry x="1177" y="718" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="C1qZpQaSz8iBgRK3MbGQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;labelBackgroundColor=#ffffff;" parent="XM8a0sqWQ-42bQUzT7HB-1" source="C1qZpQaSz8iBgRK3MbGQ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1244,9 +1244,9 @@
         <mxCell id="usswEWLePl5_Sd_9310Y-3" value="CORSO DI LAUREA(&lt;u&gt;Nome,&amp;nbsp;Università&lt;/u&gt;,&amp;nbsp;Indirizzo)" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontSize=20;labelBackgroundColor=none;endArrow=classic;" parent="XM8a0sqWQ-42bQUzT7HB-1" vertex="1">
           <mxGeometry x="242" y="715.5" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="Lh-221xK1BHl3yZJELa8-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.887;exitY=-0.034;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#ffffff;" parent="XM8a0sqWQ-42bQUzT7HB-1" source="Lh-221xK1BHl3yZJELa8-0" target="gpUSpz2yH7AiscEhKb5U-0" edge="1">
+        <mxCell id="Lh-221xK1BHl3yZJELa8-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;exitX=0.887;exitY=-0.034;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#ffffff;" parent="XM8a0sqWQ-42bQUzT7HB-1" source="Lh-221xK1BHl3yZJELa8-0" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="421.5" y="595.5" as="targetPoint"/>
+            <mxPoint x="1094" y="718" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="380" y="685"/>
               <mxPoint x="1094" y="685"/>

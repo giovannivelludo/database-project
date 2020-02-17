@@ -33,7 +33,7 @@ CREATE TABLE Sponsorizza (
 	Sponsor VARCHAR(100),
 	Squadra BIGINT,
 	FOREIGN KEY (Sponsor) REFERENCES Sponsor(Nome),
-	FOREIGN KEY (Squadra) REFERENES Squadra(Id),
+	FOREIGN KEY (Squadra) REFERENCES Squadra(Id),
 	PRIMARY KEY (Sponsor, Squadra)
 );
 

@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-17T00:51:48.271Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="-2qVcJG23IMFEYy_Fcwl" version="12.7.0" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-02-17T01:07:39.841Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="1dyQk7PmB30Am_BMf0ef" version="12.7.0" type="github" pages="7">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R ristrutturato">
-    <mxGraphModel dx="761" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -1397,7 +1397,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DGSMULf2xpYglYd43dmA" name="Accessi">
-    <mxGraphModel dx="1103" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="itYbGsxA08qZCyDXxgfK-0"/>
         <mxCell id="itYbGsxA08qZCyDXxgfK-1" parent="itYbGsxA08qZCyDXxgfK-0"/>
@@ -1487,6 +1487,24 @@
         </mxCell>
         <mxCell id="JfuhehnVArz1zg2WoeYy-24" value="Dopo ristrutturazione" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="itYbGsxA08qZCyDXxgfK-1">
           <mxGeometry x="630" y="-10" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="BA1YlJKQba1LPUVWxvoE-0" value="" style="group" vertex="1" connectable="0" parent="itYbGsxA08qZCyDXxgfK-1">
+          <mxGeometry x="10" y="880" width="580" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="BA1YlJKQba1LPUVWxvoE-1" value="&lt;table style=&quot;width: 100% ; height: 100% ; border-collapse: collapse ; border: 1px solid rgb(0 , 0 , 0)&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; border=&quot;1&quot; align=&quot;left&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;th align=&quot;left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Concetto&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Costrutto&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/th&gt;&lt;td&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Accessi&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Tipo&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Partecipa&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;R&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;S&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#000000;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="BA1YlJKQba1LPUVWxvoE-0">
+          <mxGeometry y="6" width="580" height="54" as="geometry"/>
+        </mxCell>
+        <mxCell id="BA1YlJKQba1LPUVWxvoE-2" value="&lt;b&gt;Op. 12&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BA1YlJKQba1LPUVWxvoE-0">
+          <mxGeometry width="40" height="2.790697674418605" as="geometry"/>
+        </mxCell>
+        <mxCell id="chGu1hZL5cKFVtPtKDLP-0" value="" style="group" vertex="1" connectable="0" parent="itYbGsxA08qZCyDXxgfK-1">
+          <mxGeometry x="630" y="870" width="580" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="chGu1hZL5cKFVtPtKDLP-1" value="&lt;table style=&quot;width: 100% ; height: 100% ; border-collapse: collapse ; border: 1px solid rgb(0 , 0 , 0)&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; border=&quot;1&quot; align=&quot;left&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;th align=&quot;left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Concetto&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Costrutto&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/th&gt;&lt;td&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Accessi&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Tipo&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Partecipa&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span&gt;R&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;S&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fa parte&lt;/td&gt;&lt;td&gt;R&lt;/td&gt;&lt;td&gt;2 (dipende dal n. di componenti della squadra)&lt;/td&gt;&lt;td&gt;L&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Studia&lt;/td&gt;&lt;td&gt;R&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;L&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Università&lt;/td&gt;&lt;td&gt;E&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;L&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Università&lt;/td&gt;&lt;td&gt;E&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;S&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#000000;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="chGu1hZL5cKFVtPtKDLP-0">
+          <mxGeometry y="16" width="580" height="144" as="geometry"/>
+        </mxCell>
+        <mxCell id="chGu1hZL5cKFVtPtKDLP-2" value="&lt;b&gt;Op. 12&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="chGu1hZL5cKFVtPtKDLP-0">
+          <mxGeometry width="40" height="7.44186046511628" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-17T01:08:30.538Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="QakPf4UCxQirOTVuOHKx" version="12.7.0" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-02-17T01:34:38.413Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="KPqX6cXdRBWUQOA24MjB" version="12.7.0" type="github" pages="7">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R ristrutturato">
-    <mxGraphModel dx="1103" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -557,6 +557,56 @@
         <mxCell id="c366B5Qw-EImKa9klwt9-8" value="Bronzi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" y="800" width="40" height="20" as="geometry"/>
         </mxCell>
+        <mxCell id="KQSuoOSqbOL3bun5cPLD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.652;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;startSize=10;endArrow=none;endFill=0;endSize=10;" edge="1" parent="1" source="KQSuoOSqbOL3bun5cPLD-1" target="bKcyNkYPKGg49cyKTQ3G-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="KQSuoOSqbOL3bun5cPLD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startSize=10;endArrow=none;endFill=0;endSize=10;" edge="1" parent="1" source="KQSuoOSqbOL3bun5cPLD-1" target="-CwcN6ZD3fl_PPB7evjk-40">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="2eZ8HSrq5wtuf1KPz4rk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;startSize=10;endArrow=oval;endFill=0;endSize=10;" edge="1" parent="1" source="KQSuoOSqbOL3bun5cPLD-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="445" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="875" y="445"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KQSuoOSqbOL3bun5cPLD-1" value="Nazione - Olimpiade" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="335" width="160" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="KQSuoOSqbOL3bun5cPLD-4" value="(0,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0vXu7mkuLkBNm_opHl-E-1" value="(1,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="415" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2eZ8HSrq5wtuf1KPz4rk-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=10;endArrow=oval;endFill=0;endSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="414.7600000000002" as="targetPoint"/>
+            <mxPoint x="910" y="440" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eZ8HSrq5wtuf1KPz4rk-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=10;endArrow=oval;endFill=0;endSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="444.8600000000001" as="targetPoint"/>
+            <mxPoint x="915" y="444.8600000000001" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eZ8HSrq5wtuf1KPz4rk-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=10;endArrow=oval;endFill=0;endSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="475" as="targetPoint"/>
+            <mxPoint x="910" y="450.2399999999998" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eZ8HSrq5wtuf1KPz4rk-5" value="Medaglie" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="415" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2eZ8HSrq5wtuf1KPz4rk-6" value="Ori" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="405" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2eZ8HSrq5wtuf1KPz4rk-7" value="Argenti" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="435" width="40" height="20" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1091,14 +1141,14 @@
       <root>
         <mxCell id="AKuUJwsnepmlqYCTzwLg-0"/>
         <mxCell id="AKuUJwsnepmlqYCTzwLg-1" parent="AKuUJwsnepmlqYCTzwLg-0"/>
-        <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte solo da studenti dello stesso sesso della competizione&lt;/li&gt;&lt;li&gt;Gli atleti facenti parte di una squadra devono essere della stessa nazionalità&lt;/li&gt;&lt;li&gt;Al termine delle Universiadi, ogni Competizione dovrà avere l&#39;attributo Vincitori&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Dubbi:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Nel caso di atleti che hanno cambiato nazionalità, come tenere traccia della storia della relazione tra nazionalità ed atleta?&lt;/li&gt;&lt;li&gt;Come identificare città diverse con lo stesso nome nella stessa nazione? Potremmo mettere nel nome della città anche quello della provincia o regione di cui fa parte, ad esempio potremmo avere come nome &quot;Cittadella, PD&quot; oppure &quot;Springfield, Massachusetts&quot;.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
+        <mxCell id="AKuUJwsnepmlqYCTzwLg-2" value="&lt;div&gt;Regole di vincolo:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Uno studente non può essere iscritto a Corsi di Laurea diversi nello stesso anno&lt;/li&gt;&lt;li&gt;Ogni squadra deve essere composta da studenti dello stesso sesso&lt;/li&gt;&lt;li&gt;Ogni competizione deve avere squadre composte solo da studenti dello stesso sesso della competizione&lt;/li&gt;&lt;li&gt;Gli atleti facenti parte di una squadra devono essere della stessa nazionalità&lt;/li&gt;&lt;li&gt;Al termine delle Universiadi, ogni Competizione dovrà avere l&#39;attributo Vincitori&lt;/li&gt;&lt;li&gt;(aggiunta dopo ristrutturazione) Per ogni squadra che partecipa ad una Competizione di una certa Olimpiade universitaria, la relativa Nazione dovrà partecipare alla relazione Nazione-Olimpiade con l&#39;Olimpiade universitaria&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Dubbi:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Nel caso di atleti che hanno cambiato nazionalità, come tenere traccia della storia della relazione tra nazionalità ed atleta?&lt;/li&gt;&lt;li&gt;Come identificare città diverse con lo stesso nome nella stessa nazione? Potremmo mettere nel nome della città anche quello della provincia o regione di cui fa parte, ad esempio potremmo avere come nome &quot;Cittadella, PD&quot; oppure &quot;Springfield, Massachusetts&quot;.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AKuUJwsnepmlqYCTzwLg-1" vertex="1">
           <mxGeometry x="10" y="10" width="810" height="620" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="8BNgQVcgXsx-lp5NDGUs" name="Schema Logico">
-    <mxGraphModel dx="1103" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XM8a0sqWQ-42bQUzT7HB-0"/>
         <mxCell id="XM8a0sqWQ-42bQUzT7HB-1" parent="XM8a0sqWQ-42bQUzT7HB-0"/>
@@ -1199,12 +1249,13 @@
         <mxCell id="p70cNGgdQGLFIt9W-2ir-0" value="CITT&lt;span style=&quot;text-align: left;&quot;&gt;À&lt;/span&gt;(&lt;u&gt;Id&lt;/u&gt;, Nome, Nazione)" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontSize=20;labelBackgroundColor=none;endArrow=classic;" parent="XM8a0sqWQ-42bQUzT7HB-1" vertex="1">
           <mxGeometry x="1084" y="520.5" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="VQsSsuw5P2XIsW2hkpGK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;entryX=0.835;entryY=-0.074;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="XM8a0sqWQ-42bQUzT7HB-1" source="VQsSsuw5P2XIsW2hkpGK-2" target="sTmjxvWYJXXofSrRA7xr-0" edge="1">
+        <mxCell id="VQsSsuw5P2XIsW2hkpGK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="XM8a0sqWQ-42bQUzT7HB-1" source="VQsSsuw5P2XIsW2hkpGK-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="894" y="500.5" as="targetPoint"/>
+            <mxPoint x="910" y="519" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="1172" y="500.5"/>
-              <mxPoint x="893" y="500.5"/>
+              <mxPoint x="1172" y="501"/>
+              <mxPoint x="910" y="501"/>
+              <mxPoint x="910" y="519"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1368,6 +1419,29 @@
         <mxCell id="98twEIbZbpKBE5r1BNn9-0" value="" style="rounded=0;whiteSpace=wrap;fontSize=20;labelBackgroundColor=#ffffff;endArrow=classic;html=1;fillColor=none;" parent="XM8a0sqWQ-42bQUzT7HB-1" vertex="1">
           <mxGeometry x="176" y="264.83" width="75" height="30" as="geometry"/>
         </mxCell>
+        <mxCell id="Wbq6Prj9nIf-RL9kuPHi-0" value="NAZIONE - OLIMIPIADE(&lt;u&gt;Nazione, Olimpiade&lt;/u&gt;, Ori, Argenti, Bronzi)" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontSize=20;labelBackgroundColor=none;endArrow=classic;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
+          <mxGeometry x="1177" y="380" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Wbq6Prj9nIf-RL9kuPHi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startSize=6;endArrow=classic;endFill=1;endSize=6;" edge="1" parent="XM8a0sqWQ-42bQUzT7HB-1" source="Wbq6Prj9nIf-RL9kuPHi-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wbq6Prj9nIf-RL9kuPHi-1" value="" style="rounded=0;whiteSpace=wrap;fontSize=20;labelBackgroundColor=#ffffff;endArrow=classic;html=1;fillColor=none;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
+          <mxGeometry x="1130" y="375" width="75" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Wbq6Prj9nIf-RL9kuPHi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startSize=6;endArrow=classic;endFill=1;endSize=6;" edge="1" parent="XM8a0sqWQ-42bQUzT7HB-1" source="Wbq6Prj9nIf-RL9kuPHi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1609.9999999999995" y="445" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1287" y="425"/>
+              <mxPoint x="1610" y="425"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wbq6Prj9nIf-RL9kuPHi-2" value="" style="rounded=0;whiteSpace=wrap;fontSize=20;labelBackgroundColor=#ffffff;endArrow=classic;html=1;fillColor=none;" vertex="1" parent="XM8a0sqWQ-42bQUzT7HB-1">
+          <mxGeometry x="1217" y="375" width="93" height="30" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1397,7 +1471,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DGSMULf2xpYglYd43dmA" name="Accessi">
-    <mxGraphModel dx="761" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="itYbGsxA08qZCyDXxgfK-0"/>
         <mxCell id="itYbGsxA08qZCyDXxgfK-1" parent="itYbGsxA08qZCyDXxgfK-0"/>

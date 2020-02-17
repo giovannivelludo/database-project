@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-17T01:40:28.547Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Ko6Wa1_AKoEeSH1pssLS" version="12.7.0" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-02-17T01:43:41.223Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="nZxkSDjtbJqaEVYdQUKC" version="12.7.0" type="github" pages="7">
   <diagram id="uhMjWXik6Yx-BJb2ZID2" name="Schema E-R ristrutturato">
     <mxGraphModel dx="919" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -606,6 +606,9 @@
         </mxCell>
         <mxCell id="2eZ8HSrq5wtuf1KPz4rk-7" value="Argenti" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="435" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ce6uYq1P7o096AffUL_E-1" value="Bronzi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="470" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

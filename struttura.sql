@@ -35,7 +35,7 @@ CREATE TABLE Atleta (
 CREATE TABLE Disciplina (
 	Nome VARCHAR(50),
 	Sport VARCHAR(50),
-	Regolamento TEXT NOT NULL,
+	Regolamento BYTEA NOT NULL,
 	PRIMARY KEY (Nome, Sport)
 );
 

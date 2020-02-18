@@ -149,8 +149,7 @@ insert into Studia values
 (16, 'Physiotherapy', 'Université de Paris', 2019),
 (17, 'Architecture', 'Université de Paris', 2019),
 (18, 'Psychology', 'Université de Paris', 2019),
-(19, 'Design', 'Universidad Complutense de Madrid', 2019),
-;
+(19, 'Design', 'Universidad Complutense de Madrid', 2019);
 
 insert into Nazionalità values
 (1, 'Italia'),

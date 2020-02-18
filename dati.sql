@@ -61,9 +61,9 @@ insert into OlimpiadeUniversitaria values
 (2015, 9);
 
 insert into Disciplina values
-('50 m stile libero', 'Nuoto', pg_read_binary_file('./regolamenti/napoli_2019_swimming.pdf')::bytea),
-('Pallavolo', 'Pallavolo', pg_read_binary_file('./regolamenti/napoli_2019_volleyball.pdf')::bytea),
-('100 m', 'Atletica', pg_read_binary_file('./regolamenti/napoli_2019_athletics.pdf')::bytea);
+('50 m stile libero', 'Nuoto', 'Regolamento 50 m stile libero nuoto'),
+('Pallavolo', 'Pallavolo', 'Regolamento pallavolo'),
+('100 m', 'Atletica', 'Regolamento 100m atletica');
 
 insert into FaParte values
 (1, 1),

@@ -35,7 +35,7 @@ create table Atleta (
 create table Disciplina (
 	Nome varchar(50),
 	Sport varchar(50),
-	Regolamento bytea not null,
+	Regolamento TEXT not null,
 	primary key (Nome, Sport)
 );
 

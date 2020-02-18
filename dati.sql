@@ -7,7 +7,7 @@ insert into Sponsor values
 
 insert into Atleta(Nome,Cognome,Sesso,DataNascita) values
 ('Livio', 'Cenni', 'M', '1999-05-23'),
-('Sara', 'Zaggia', 'F', '1198-09-03'),
+('Sara', 'Zaggia', 'F', '1998-09-03'),
 ('Anna', 'Barbon', 'F', '1995-12-31'),
 ('Mario', 'Rossi', 'M', '1995-02-12'),
 ('Pedro', 'Hernández', 'M', '2000-04-28'),
@@ -44,6 +44,7 @@ insert into Città(Nome,Nazione) values
 
 insert into Squadra(Nazione) values
 ('Italia'),
+('Italia'),
 ('Regno Unito'),
 ('Francia'),
 ('Germania'),
@@ -55,23 +56,70 @@ insert into Sponsorizza values
 ('Danone S.p.A.', 1);
 
 insert into OlimpiadeUniversitaria values
-('2019', 7),
-('2017', 8),
-('2015', 9);
+(2019, 7),
+(2017, 8),
+(2015, 9);
 
 insert into Disciplina values
-('Nuoto', '50 m stile libero', pg_read_binary_file('./regolamenti/napoli_2019_swimming.pdf')::bytea),
+('50 m stile libero', 'Nuoto', pg_read_binary_file('./regolamenti/napoli_2019_swimming.pdf')::bytea),
 ('Pallavolo', 'Pallavolo', pg_read_binary_file('./regolamenti/napoli_2019_volleyball.pdf')::bytea),
-('Atletica', '100 metri', pg_read_binary_file('./regolamenti/napoli_2019_athletics.pdf')::bytea);
-/*
-insert into Università values
-('Università degli Studi di Padova', '0498275111', 'Padova', '3','4','5'),
-();
+('100 m', 'Atletica', pg_read_binary_file('./regolamenti/napoli_2019_athletics.pdf')::bytea);
 
-insert into CorsoDiLaurea values
-('Ingegneria Informatica', 'Università degli Studi di Padova');
+insert into FaParte values
+(1, 1),
+(2, 4),
+(5, 9),
+(7, 11);
 
 insert into Competizione values
-('M', 'Pallavolo', 'Pallavolo', '2018')
-('F', 'Nuoto', 'Stile Libero', '2016');
-*/
+('M', '50 m stile libero', 'Nuoto', 2019),
+('F', '100 m', 'Atletica', 2017);
+
+insert into Finanzia values
+('Danone S.p.A.', 'M', '50 m stile libero', 'Nuoto', 2019),
+('Nike, Inc.', 'M', '50 m stile libero', 'Nuoto', 2019);
+
+insert into Partecipa values
+(1, 'M', '50 m stile libero', 'Nuoto', 2019),
+(2, 'M', '50 m stile libero', 'Nuoto', 2019),
+(5, 'M', '50 m stile libero', 'Nuoto', 2019),
+(7, 'M', '50 m stile libero', 'Nuoto', 2019);
+
+insert into Università values
+('Università degli Studi di Padova', '00390498275111', 2, 0, 0, 0),
+('ESMT Berlin', '00491439223455', 5, 0, 0, 0);
+
+insert into CorsoDiLaurea values
+('Ingegneria informatica', 'Università degli Studi di Padova'),
+('Filosofia', 'Università degli Studi di Padova'),
+('Economia aziendale', 'ESMT Berlin'),
+('Finanza', 'ESMT Berlin');
+
+insert into Studia values
+(1, 'Ingegneria informatica', 'Università degli Studi di Padova', 2019),
+(4, 'Filosofia', 'Università degli Studi di Padova', 2019),
+(9, 'Economia aziendale', 'ESMT Berlin', 2019),
+(11, 'Finanza', 'ESMT Berlin', 2019);
+
+insert into Nazionalità values
+(1, 'Italia'),
+(1, 'Regno Unito'),
+(2, 'Italia'),
+(3, 'Italia'),
+(4, 'Italia'),
+(5, 'Spagna'),
+(6, 'Spagna'),
+(7, 'Francia'),
+(8, 'Spagna'),
+(9, 'Germania'),
+(10, 'Germania'),
+(10, 'Francia'),
+(11, 'Germania'),
+(12, 'Germania'),
+(13, 'Regno Unito'),
+(14, 'Regno Unito'),
+(15, 'Regno Unito');
+
+insert into Nazione_Olimpiade values
+('Italia', 2019),
+('Germania', 2019);

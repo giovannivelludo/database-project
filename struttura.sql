@@ -1,9 +1,3 @@
---DROP DATABASE IF EXISTS Universiadi;
-
---CREATE DATABASE Universiadi;
-
---USE Universiadi;
-
 /*per una creazione corretta delle tabelle, pulisco eventuale memoria*/
 
 DROP TABLE IF EXISTS Nazione_Olimpiade;
@@ -26,7 +20,7 @@ DROP TABLE IF EXISTS Sponsor;
 
 CREATE TABLE Sponsor (
 	Nome VARCHAR(100) PRIMARY KEY,
-	Telefono VARCHAR(15)
+	Telefono VARCHAR(15) UNIQUE
 );
 
 CREATE TABLE Atleta (
@@ -121,11 +115,14 @@ CREATE TABLE Partecipa (
 
 CREATE TABLE Università (
 	Nome VARCHAR(100) PRIMARY KEY,
-	Telefono VARCHAR(15),
+	Telefono VARCHAR(15) UNIQUE,
 	Città INT NOT NULL,
-	Ori INT DEFAULT 0 NOT NULL,
-	Argenti INT DEFAULT 0 NOT NULL,
-	Bronzi INT DEFAULT 0 NOT NULL,
+	Ori INT DEFAULT 0 NOT NULL
+		CHECK (Ori >= 0),
+	Argenti INT DEFAULT 0 NOT NULL
+		CHECK (Argenti >= 0),
+	Bronzi INT DEFAULT 0 NOT NULL
+		CHECK (Bronzi >= 0),
 	FOREIGN KEY (Città) REFERENCES Città(Id)
 );
 
@@ -158,9 +155,12 @@ CREATE TABLE Nazionalità (
 CREATE TABLE Nazione_Olimpiade (
 	Nazione VARCHAR(100),
 	Olimpiade SMALLINT,
-	Ori INT DEFAULT 0 NOT NULL,
-	Argenti INT DEFAULT 0 NOT NULL,
-	Bronzi INT DEFAULT 0 NOT NULL,
+	Ori INT DEFAULT 0 NOT NULL
+		CHECK (Ori >= 0),
+	Argenti INT DEFAULT 0 NOT NULL
+		CHECK (Argenti >= 0),
+	Bronzi INT DEFAULT 0 NOT NULL
+		CHECK (Bronzi >= 0),
 	FOREIGN KEY (Nazione) REFERENCES Nazione(Nome),
 	FOREIGN KEY (Olimpiade) REFERENCES OlimpiadeUniversitaria(Anno),
 	PRIMARY KEY (Nazione, Olimpiade)

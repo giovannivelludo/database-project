@@ -43,8 +43,8 @@ insert into OlimpiadeUniversitaria values
 
 insert into Disciplina values
 ('Nuoto', '50 m stile libero', pg_read_file('./regolamenti/napoli_2019_swimming.pdf')::bytea),
-('Pallavolo', 'Pallavolo', pg_read_file('./regolamenti/napoli_2019_swimming.pdf')::bytea),
-('Atletica', '100 metri', pg_read_file('./regolamenti/napoli_2019_swimming.pdf')::bytea);
+('Pallavolo', 'Pallavolo', pg_read_file('./regolamenti/napoli_2019_volleyball.pdf')::bytea),
+('Atletica', '100 metri', pg_read_file('./regolamenti/napoli_2019_athletics.pdf')::bytea);
 
 insert into Città(Nome,Nazione) values
 ('Roma', 'Italia'),

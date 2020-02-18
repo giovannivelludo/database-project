@@ -44,7 +44,7 @@ insert into Città(Nome, Nazione) values
 ('Madrid', 'Spagna'),
 ('Napoli', 'Italia'),
 ('Taipei', 'Taipei Cinese'),
-('Gwangju', 'Corea del Sud')
+('Gwangju', 'Corea del Sud'),
 ('Manchester', 'Regno Unito');
 
 insert into Squadra(Nazione) values
@@ -116,7 +116,7 @@ insert into Partecipa values
 
 insert into Università values
 ('Università degli Studi di Padova', '00390498275111', 2, 0, 0, 0),
-('ESMT Berlin', '00491439223455', 5, 0, 0, 0);
+('ESMT Berlin', '00491439223455', 5, 0, 0, 0),
 ('Universidad Complutense de Madrid', '00914520400', 6, 0, 0, 0),
 ('Università degli Studi di Napoli Federico II', '00390812531111', 7, 0, 0, 0),
 ('Université de Paris', '0033157275727', 4, 0, 0, 0),
@@ -161,8 +161,7 @@ insert into Studia values
 (15, 'Design', 'The University of Manchester', 2019),
 (16, 'Physiotherapy', 'Université de Paris', 2019),
 (17, 'Architecture', 'Université de Paris', 2019),
-(18, 'Psychology', 'Université de Paris', 2019),
-(19, 'Design', 'Universidad Complutense de Madrid', 2019);
+(18, 'Design', 'Universidad Complutense de Madrid', 2019);
 
 insert into Nazionalità values
 (1, 'Italia'),

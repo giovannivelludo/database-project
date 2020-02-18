@@ -3,6 +3,7 @@ insert into Sponsor values
 ('Qiaodan Sports Company', '00864007032333'),
 ('Danone S.p.A.', '0039800804037'),
 ('Kia Motors America, Inc.', '18003334542'),
+('Trops S.p.A.', '00390498989900')
 ('Stokely-Van Camp, Inc.', '18008842867');
 
 insert into Atleta(Nome,Cognome,Sesso,DataNascita) values
@@ -20,7 +21,11 @@ insert into Atleta(Nome,Cognome,Sesso,DataNascita) values
 ('Anika', 'Schmidt', 'F', '2000-01-07'),
 ('John', 'Doe', 'M', '1997-11-30'),
 ('Jane', 'Bloggs', 'F', '1996-05-11'),
-('Edward', 'Cook', 'M', '1995-08-31');
+('Edward', 'Cook', 'M', '1995-08-31'),
+('Francois', 'La Manche', 'M', '1989-12-25'),
+('Anne', 'Dupont', 'F', '1997-02-10'),
+('Mathieu', 'Choir', 'M', '1999-05-12'),
+('Andre', 'Garcia', 'M', '1992-03-10');
 
 insert into Nazione values
 ('Italia'),
@@ -62,18 +67,28 @@ insert into OlimpiadeUniversitaria values
 
 insert into Disciplina values
 ('50 m stile libero', 'Nuoto', 'Regolamento 50 m stile libero nuoto'),
-('Pallavolo', 'Pallavolo', 'Regolamento pallavolo'),
+('6x6', 'Pallavolo', 'Regolamento pallavolo'),
+('2x2 misto', 'Beach Volley', 'Regolamento beach volley'),
 ('100 m', 'Atletica', 'Regolamento 100m atletica');
 
 insert into FaParte values
 (1, 1),
 (2, 4),
+(4, 16),
+(4, 17),
+(4, 18),
 (5, 9),
-(7, 11);
+(7, 11),
+(6, 19);
 
 insert into Competizione values
 ('M', '50 m stile libero', 'Nuoto', 2019),
+('F', '50 m stile libero', 'Nuoto', 2019),
+('M', '100 m', 'Atletica', 2017);
 ('F', '100 m', 'Atletica', 2017);
+('M', '6x6', 'Pallavolo', 2019),
+('F', '6x6', 'Pallavolo', 2019),
+('E', '2x2 misto', 'Beach Volley', 2019);
 
 insert into Finanzia values
 ('Danone S.p.A.', 'M', '50 m stile libero', 'Nuoto', 2019),
@@ -83,23 +98,59 @@ insert into Partecipa values
 (1, 'M', '50 m stile libero', 'Nuoto', 2019),
 (2, 'M', '50 m stile libero', 'Nuoto', 2019),
 (5, 'M', '50 m stile libero', 'Nuoto', 2019),
+(4, 'E', '2x2 misto', 'Beach Volley', 2019),
 (7, 'M', '50 m stile libero', 'Nuoto', 2019);
 
 insert into Università values
 ('Università degli Studi di Padova', '00390498275111', 2, 0, 0, 0),
-('ESMT Berlin', '00491439223455', 5, 0, 0, 0);
+('ESMT Berlin', '00491439223455', 5, 0, 0, 0),
+('Universidad Complutense de Madrid', '00914520400', 6, 3, 0, 1),
+('Università degli Studi di Napoli Federico II', '00390812531111', 7, 0, 2, 0),
+('Université de Paris', '0033157275727', 4, 1, 7, 3),
+('The University of Manchester', '00441613066000', 4, 1, 7, 3),
+('University of London', '00442078628000', 3, 1, 2, 4);
 
 insert into CorsoDiLaurea values
 ('Ingegneria informatica', 'Università degli Studi di Padova'),
 ('Filosofia', 'Università degli Studi di Padova'),
+('Psicopedagogia', 'Università degli Studi di Padova'),
 ('Economia aziendale', 'ESMT Berlin'),
+('Computer Science', 'Universidad Complutense de Madrid'),
+('Marketing', 'Universidad Complutense de Madrid'),
+('Design', 'Universidad Complutense de Madrid'),
+('Computer Science', 'Université de Paris'),
+('Psychology', 'Université de Paris'),
+('Physiotherapy', 'Université de Paris'),
+('Architecture', 'Université de Paris'),
+('Architecture', 'ESMT Berlin'),
+('Design', 'The University of Manchester'),
+('Computer Science', 'The University of Manchester'),
+('Psychology', 'The University of Manchester'),
+('Physiotherapy', 'The University of Manchester'),
+('Architecture', 'The University of Manchester'),
 ('Finanza', 'ESMT Berlin');
 
 insert into Studia values
 (1, 'Ingegneria informatica', 'Università degli Studi di Padova', 2019),
+(2, 'Psicopedagogia', 'Università degli Studi di Padova', 2019),
+(3, 'Psicopedagogia', 'Università degli Studi di Padova', 2019),
 (4, 'Filosofia', 'Università degli Studi di Padova', 2019),
+(5, 'Computer Science', 'Universidad Complutense de Madrid', 2019),
+(6, 'Design', 'Universidad Complutense de Madrid', 2019),
+(7, 'Computer Science', 'Université de Paris', 2019),
+(8, 'Marketing', 'Universidad Complutense de Madrid', 2019),
 (9, 'Economia aziendale', 'ESMT Berlin', 2019),
-(11, 'Finanza', 'ESMT Berlin', 2019);
+(10, 'Economia aziendale', 'ESMT Berlin', 2019),
+(11, 'Finanza', 'ESMT Berlin', 2019)
+(12, 'Architecture', 'ESMT Berlin', 2019),
+(13, 'Psychology', 'The University of Manchester', 2019),
+(14, 'Computer Science', 'The University of Manchester', 2019),
+(15, 'Design', 'The University of Manchester', 2019),
+(16, 'Physiotherapy', 'Université de Paris', 2019),
+(17, 'Architecture', 'Université de Paris', 2019),
+(18, 'Psychology', 'Université de Paris', 2019),
+(19, 'Design', 'Universidad Complutense de Madrid', 2019),
+;
 
 insert into Nazionalità values
 (1, 'Italia'),
@@ -118,7 +169,11 @@ insert into Nazionalità values
 (12, 'Germania'),
 (13, 'Regno Unito'),
 (14, 'Regno Unito'),
-(15, 'Regno Unito');
+(15, 'Regno Unito'),
+(16, 'Francia'),
+(17, 'Francia'),
+(18, 'Francia'),
+(19, 'Spagna');
 
 insert into Nazione_Olimpiade values
 ('Italia', 2019),

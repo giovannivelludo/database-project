@@ -2,7 +2,7 @@ SELECT NULL AS "1. Medagliere: data un'olimpiade, trovare per ogni nazione quant
 
 	SELECT Nazione, Ori, Argenti, Bronzi
 	FROM Nazione_Olimpiade
-	WHERE Olimpiade = 2019
+	WHERE Olimpiade = 2019 -- rimpiazzare con olimpiade data
 	ORDER BY Ori DESC, Argenti DESC, Bronzi DESC;
 
 SELECT NULL AS "2. Classifica di una competizione, mostrando la nazione delle varie squadre.";
@@ -10,23 +10,23 @@ SELECT NULL AS "2. Classifica di una competizione, mostrando la nazione delle va
 	SELECT Squadra, Nazione, Sesso, Disciplina, Sport, Olimpiade, PosizioneClassifica
 	FROM Partecipa
 	JOIN Squadra ON (Partecipa.Squadra=Squadra.ID)
-	WHERE Sesso ='M' AND Disciplina='50 m stile libero' AND Sport='Nuoto' AND Olimpiade ='2019';
+	WHERE Sesso ='M' AND Disciplina='50 m stile libero' AND Sport='Nuoto' AND Olimpiade ='2019'; -- rimpiazzare con dati competizione
 
 SELECT NULL AS "3. Trovare squadre e competizioni sponsorizzate dallo sponsor dato.";
 
     SELECT Sponsor, null AS Sesso, null AS Disciplina, null AS Sport, null AS Olimpiade, Squadra
     FROM Sponsorizza
-    WHERE Sponsor ='Nike, Inc.'
+    WHERE Sponsor ='Nike, Inc.' -- rimpiazzare con sponsor dato
     UNION
     SELECT Sponsor, Sesso, Disciplina, Sport, Olimpiade, null
     FROM Finanzia
-    WHERE Sponsor ='Nike, Inc.';
+    WHERE Sponsor ='Nike, Inc.'; -- rimpiazzare con sponsor dato
 
 SELECT NULL AS "4. Dato un atleta, lista delle competizioni in cui si è classificato in una delle prime 3 posizioni, con la posizione.";
 
     SELECT Sesso, Disciplina, Sport, Olimpiade, PosizioneClassifica
     FROM FaParte NATURAL JOIN Partecipa
-    WHERE Atleta='9' AND PosizioneClassifica <= 3;
+    WHERE Atleta='9' AND PosizioneClassifica <= 3; -- rimpiazzare con Id atleta
     
 SELECT NULL AS "5. Elenco in ordine cronologico delle olimpiadi, con città e nazioni ospitanti";
 
@@ -55,5 +55,5 @@ SELECT NULL AS "8. Data un'olimpiade, elenco delle competizioni e per ciascuna m
     SELECT Sesso, Disciplina, Sport, Squadra, Nazione
     FROM Partecipa
         JOIN Squadra ON (Partecipa.Squadra=Squadra.ID)
-    WHERE Olimpiade='X' AND PosizioneClassifica = 1;
+    WHERE Olimpiade='2019' AND PosizioneClassifica = 1;
     

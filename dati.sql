@@ -111,8 +111,16 @@ insert into Partecipa values
 (1, 'M', '50 m stile libero', 'Nuoto', 2019),
 (2, 'M', '50 m stile libero', 'Nuoto', 2019),
 (3, 'M', '6x6', 'Pallavolo', 2015),
-(5, 'M', '50 m stile libero', 'Nuoto', 2019),
-(7, 'M', '50 m stile libero', 'Nuoto', 2019);
+(4, 'M', '50 m stile libero', 'Nuoto', 2019),
+(5, 'M', '6x6', 'Pallavolo', 2015),
+(6, 'M', '50 m stile libero', 'Nuoto', 2019),
+(7, 'M', '50 m stile libero', 'Nuoto', 2019),
+(8, 'F', '100 m', 'Atletica', 2017),
+(9, 'F', '100 m', 'Atletica', 2017),
+(10, 'M', '50 m stile libero', 'Nuoto', 2019),
+(11, 'F', '100 m', 'Atletica', 2017),
+(12, 'M', '6x6', 'Pallavolo', 2015);
+
 
 insert into Università values
 ('Università degli Studi di Padova', '00390498275111', 2, 0, 0, 0),

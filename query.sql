@@ -37,14 +37,6 @@
     ORDER BY Ori DESC, Argenti DESC, Bronzi DESC;
 
 -- Query 7   
-	/* 
-    SELECT Atleta, COUNT(DISTINCT PosizioneClassifica) AS Num
-    FROM Partecipa NATURAL JOIN FaParte
-    WHERE Sport='Nuoto'
-    GROUP BY Atleta
-    HAVING PosizioneClassifica <= 3 -- ???
-    ORDER BY Num DESC;
-*/
 	DROP VIEW IF EXISTS Terzi;
 	DROP VIEW IF EXISTS Secondi;
 	DROP VIEW IF EXISTS Primi;
@@ -70,7 +62,14 @@
 	WHERE PosizioneClassifica = 3
 	GROUP BY Atleta);
 
-	-- abbiamo 3 tabelle con atleti ed il relativo numero di medaglie (tabella con gli ori, tabella con gli argenti ,tabella con i bronzi). dobbiamo fonderle in un'unica tabella con le colonne Atleta, Ori, Argenti, Bronzi, ordinando in senso decrescente per ori, argenti, bronzi.
+	SELECT * FROM Primi
+	ORDER BY Ori DESC;
+
+	SELECT * FROM Secondi
+	ORDER BY Argenti DESC;
+
+	SELECT * FROM Terzi
+	ORDER BY Bronzi DESC;
 
 	DROP VIEW IF EXISTS Terzi;
 	DROP VIEW IF EXISTS Secondi;

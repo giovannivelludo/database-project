@@ -108,16 +108,16 @@ insert into Finanzia values
 ('Nike, Inc.', 'M', '50 m stile libero', 'Nuoto', 2019);
 
 insert into Partecipa values
-(1, 'M', '50 m stile libero', 'Nuoto', 2019),
-(2, 'M', '50 m stile libero', 'Nuoto', 2019),
+(1, 'M', '50 m stile libero', 'Nuoto', 2019, 2),
+(2, 'M', '50 m stile libero', 'Nuoto', 2019, 1),
 (3, 'M', '6x6', 'Pallavolo', 2015),
-(4, 'M', '50 m stile libero', 'Nuoto', 2019),
+(4, 'M', '50 m stile libero', 'Nuoto', 2019, 3),
 (5, 'M', '6x6', 'Pallavolo', 2015),
-(6, 'M', '50 m stile libero', 'Nuoto', 2019),
-(7, 'M', '50 m stile libero', 'Nuoto', 2019),
+(6, 'M', '50 m stile libero', 'Nuoto', 2019, 5),
+(7, 'M', '50 m stile libero', 'Nuoto', 2019, 4),
 (8, 'F', '100 m', 'Atletica', 2017),
 (9, 'F', '100 m', 'Atletica', 2017),
-(10, 'M', '50 m stile libero', 'Nuoto', 2019),
+(10, 'M', '50 m stile libero', 'Nuoto', 2019, 6),
 (11, 'F', '100 m', 'Atletica', 2017),
 (12, 'M', '6x6', 'Pallavolo', 2015);
 
@@ -191,6 +191,13 @@ insert into Nazionalità values
 (18, 'Spagna');
 
 insert into Nazione_Olimpiade values
+('Italia', 2019),
+('Regno Unito', 2015),
+('Francia', 2019),
+('Germania', 2015),
+('Spagna', 2019),
 ('Germania', 2019),
 ('Italia', 2017),
+('Spagna', 2017),
+('Regno Unito', 2017),
 ('Spagna', 2015);

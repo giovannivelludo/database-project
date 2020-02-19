@@ -122,13 +122,13 @@ insert into Partecipa values
 (12, 'M', '6x6', 'Pallavolo', 2015, 3);
 
 insert into Università values
-('Università degli Studi di Padova', '00390498275111', 2, 0, 0, 0),
-('ESMT Berlin', '00491439223455', 5, 0, 0, 0),
-('Universidad Complutense de Madrid', '00914520400', 6, 0, 0, 0),
+('Università degli Studi di Padova', '00390498275111', 2, 2, 1, 0),
+('ESMT Berlin', '00491439223455', 5, 0, 1, 0),
+('Universidad Complutense de Madrid', '00914520400', 6, 0, 2, 1),
 ('Università degli Studi di Napoli Federico II', '00390812531111', 7, 0, 0, 0),
-('Université de Paris', '0033157275727', 4, 0, 0, 0),
-('The University of Manchester', '00441613066000', 10, 0, 0, 0),
-('University of London', '00442078628000', 3, 0, 0, 0);
+('Université de Paris', '0033157275727', 4, 0, 0, 3),
+('The University of Manchester', '00441613066000', 10, 2, 0, 1),
+('University of London', '00442078628000', 3, 1, 0, 0);
 
 insert into CorsoDiLaurea values
 ('Ingegneria informatica', 'Università degli Studi di Padova'),

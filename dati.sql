@@ -108,11 +108,11 @@ insert into Finanzia values
 ('Nike, Inc.', 'M', '50 m stile libero', 'Nuoto', 2019);
 
 insert into Partecipa values
-(1, 'M', '50 m stile libero', 'Nuoto', 2019),
-(2, 'M', '50 m stile libero', 'Nuoto', 2019),
-(3, 'M', '6x6', 'Pallavolo', 2015),
-(5, 'M', '50 m stile libero', 'Nuoto', 2019),
-(7, 'M', '50 m stile libero', 'Nuoto', 2019);
+(1, 'M', '50 m stile libero', 'Nuoto', 2019, 4),
+(2, 'M', '50 m stile libero', 'Nuoto', 2019, 3),
+(3, 'M', '6x6', 'Pallavolo', 2015, 2),
+(5, 'M', '50 m stile libero', 'Nuoto', 2019, 2),
+(7, 'M', '50 m stile libero', 'Nuoto', 2019, 1);
 
 insert into Università values
 ('Università degli Studi di Padova', '00390498275111', 2, 0, 0, 0),

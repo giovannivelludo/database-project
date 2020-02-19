@@ -14,23 +14,23 @@ SELECT NULL AS "2. Classifica di una competizione, mostrando la nazione delle va
 
 SELECT NULL AS "3. Trovare squadre e competizioni sponsorizzate dallo sponsor dato.";
 
-    SELECT *
+    SELECT Sponsor, null AS Sesso, null AS Disciplina, null AS Sport, null AS Olimpiade, Squadra
     FROM Sponsorizza
-    WHERE Sponsor ='X'
+    WHERE Sponsor ='Nike, Inc.'
     UNION
-    SELECT *
+    SELECT Sponsor, Sesso, Disciplina, Sport, Olimpiade, null
     FROM Finanzia
-    WHERE Sponsor ='X';
+    WHERE Sponsor ='Nike, Inc.';
 
 SELECT NULL AS "4. Dato un atleta, lista delle competizioni in cui si è classificato in una delle prime 3 posizioni, con la posizione.";
 
-    SELECT *
+    SELECT Sesso, Disciplina, Sport, Olimpiade, PosizioneClassifica
     FROM FaParte NATURAL JOIN Partecipa
-    WHERE Atleta='X' AND PosizioneClassifica < 3;
+    WHERE Atleta='9' AND PosizioneClassifica <= 3;
     
 SELECT NULL AS "5. Elenco in ordine cronologico delle olimpiadi, con città e nazioni ospitanti";
 
-    SELECT Anno, Nome, Nazione
+    SELECT Anno, Nome AS Città, Nazione
     FROM OlimpiadeUniversitaria 
         JOIN Città on (OlimpiadeUniversitaria.Città=Città.ID)
     ORDER BY Anno ASC;

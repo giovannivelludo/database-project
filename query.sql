@@ -1,59 +1,85 @@
-SELECT NULL AS "1. Medagliere: data un'olimpiade, trovare per ogni nazione quante squadre si sono classificate rispettivamente in 1a, 2a e 3a posizione. Ordinare in base agli ori, se pari in base agli argenti, se pari in base ai bronzi.";
-
+-- Query 1
 	SELECT Nazione, Ori, Argenti, Bronzi
 	FROM Nazione_Olimpiade
 	WHERE Olimpiade = 2019 -- rimpiazzare con olimpiade data
 	ORDER BY Ori DESC, Argenti DESC, Bronzi DESC;
 
-SELECT NULL AS "2. Classifica di una competizione, mostrando la nazione delle varie squadre.";
-
+-- Query 2
 	SELECT Squadra, Nazione, Sesso, Disciplina, Sport, Olimpiade, PosizioneClassifica
 	FROM Partecipa
 	JOIN Squadra ON (Partecipa.Squadra=Squadra.ID)
-	WHERE Sesso ='M' AND Disciplina='50 m stile libero' AND Sport='Nuoto' AND Olimpiade ='2019'; -- rimpiazzare con dati competizione
+	WHERE Sesso ='M' AND Disciplina='50 m stile libero' AND Sport='Nuoto' AND Olimpiade ='2019' -- rimpiazzare con dati competizione
+	ORDER BY PosizioneClassifica ASC;
 
-SELECT NULL AS "3. Trovare squadre e competizioni sponsorizzate dallo sponsor dato.";
-
-    SELECT Sponsor, null AS Sesso, null AS Disciplina, null AS Sport, null AS Olimpiade, Squadra
+-- Query 3
+	SELECT Sponsor, null AS Sesso, null AS Disciplina, null AS Sport, null AS Olimpiade, Squadra
     FROM Sponsorizza
     WHERE Sponsor ='Nike, Inc.' -- rimpiazzare con sponsor dato
     UNION
     SELECT Sponsor, Sesso, Disciplina, Sport, Olimpiade, null
     FROM Finanzia
     WHERE Sponsor ='Nike, Inc.'; -- rimpiazzare con sponsor dato
-
-SELECT NULL AS "4. Dato un atleta, lista delle competizioni in cui si è classificato in una delle prime 3 posizioni, con la posizione.";
-
-    SELECT Sesso, Disciplina, Sport, Olimpiade, PosizioneClassifica
+    
+-- Query 4
+	SELECT Sesso, Disciplina, Sport, Olimpiade, PosizioneClassifica
     FROM FaParte NATURAL JOIN Partecipa
     WHERE Atleta='9' AND PosizioneClassifica <= 3; -- rimpiazzare con Id atleta
     
-SELECT NULL AS "5. Elenco in ordine cronologico delle olimpiadi, con città e nazioni ospitanti";
-
-    SELECT Anno, Nome AS Città, Nazione
+-- Query 5
+	SELECT Anno, Nome AS Città, Nazione
     FROM OlimpiadeUniversitaria 
         JOIN Città on (OlimpiadeUniversitaria.Città=Città.ID)
     ORDER BY Anno ASC;
-
-SELECT NULL AS "6. Trovare per ogni università quante medaglie sono state vinte dai propri studenti (suddivise in base al tipo di medaglia, per tutte le olimpiadi della storia). Ordinare in base agli ori, se pari in base agli argenti, se pari in base ai bronzi.";
     
-    SELECT Nome, Ori, Argenti, Bronzi
+-- Query 6
+	SELECT Nome, Ori, Argenti, Bronzi
     FROM Università
     ORDER BY Ori DESC, Argenti DESC, Bronzi DESC;
 
-SELECT NULL AS "7. Dato uno sport, restituire la classifica degli atleti che hanno vinto più medaglie, ordinando per numero di ori, eventualmente per argenti e bronzi.";
-    
+-- Query 7   
+	/* 
     SELECT Atleta, COUNT(DISTINCT PosizioneClassifica) AS Num
     FROM Partecipa NATURAL JOIN FaParte
-    WHERE Sport='X'
+    WHERE Sport='Nuoto'
     GROUP BY Atleta
-    HAVING PosizioneClassifica < 3 ???
+    HAVING PosizioneClassifica <= 3 -- ???
     ORDER BY Num DESC;
+*/
+	DROP VIEW IF EXISTS Terzi;
+	DROP VIEW IF EXISTS Secondi;
+	DROP VIEW IF EXISTS Primi;
+	DROP VIEW IF EXISTS Medagliati;
 
-SELECT NULL AS "8. Data un'olimpiade, elenco delle competizioni e per ciascuna mostrare la squadra vincitrice, con la relativa nazione.";
+	CREATE VIEW Medagliati AS (SELECT *
+	FROM Partecipa
+	NATURAL JOIN FaParte
+	WHERE Sport='Nuoto' AND PosizioneClassifica <= 3);
 
-    SELECT Sesso, Disciplina, Sport, Squadra, Nazione
+	CREATE VIEW Primi AS (SELECT Atleta, COUNT(Atleta) AS Ori
+	FROM Medagliati
+	WHERE PosizioneClassifica = 1
+	GROUP BY Atleta);
+
+	CREATE VIEW Secondi AS (SELECT Atleta, COUNT(Atleta) AS Argenti
+	FROM Medagliati
+	WHERE PosizioneClassifica = 2
+	GROUP BY Atleta);
+
+	CREATE VIEW Terzi AS (SELECT Atleta, COUNT(Atleta) AS Bronzi
+	FROM Medagliati
+	WHERE PosizioneClassifica = 3
+	GROUP BY Atleta);
+
+	-- abbiamo 3 tabelle con atleti ed il relativo numero di medaglie (tabella con gli ori, tabella con gli argenti ,tabella con i bronzi). dobbiamo fonderle in un'unica tabella con le colonne Atleta, Ori, Argenti, Bronzi, ordinando in senso decrescente per ori, argenti, bronzi.
+
+	DROP VIEW IF EXISTS Terzi;
+	DROP VIEW IF EXISTS Secondi;
+	DROP VIEW IF EXISTS Primi;
+	DROP VIEW IF EXISTS Medagliati;
+
+-- Query 8	
+	SELECT Sesso, Disciplina, Sport, Squadra, Nazione
     FROM Partecipa
         JOIN Squadra ON (Partecipa.Squadra=Squadra.ID)
-    WHERE Olimpiade='2019' AND PosizioneClassifica = 1;
+    WHERE Olimpiade='2019' AND PosizioneClassifica = 1; -- rimpiazzare con olimpiade data
     

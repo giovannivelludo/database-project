@@ -140,15 +140,12 @@ insert into CorsoDiLaurea values
 ('Marketing', 'Universidad Complutense de Madrid'),
 ('Design', 'Universidad Complutense de Madrid'),
 ('Computer Science', 'Université de Paris'),
-('Psychology', 'Université de Paris'),
 ('Physiotherapy', 'Université de Paris'),
 ('Architecture', 'Université de Paris'),
 ('Architecture', 'ESMT Berlin'),
 ('Design', 'The University of Manchester'),
 ('Computer Science', 'The University of Manchester'),
 ('Psychology', 'The University of Manchester'),
-('Physiotherapy', 'The University of Manchester'),
-('Architecture', 'The University of Manchester'),
 ('Finanza', 'ESMT Berlin');
 
 insert into Studia values

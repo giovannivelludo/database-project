@@ -26,14 +26,14 @@
     WHERE Atleta='9' AND PosizioneClassifica <= 3; -- rimpiazzare con Id atleta
     
 -- Query 5
-	SELECT Anno, Nome AS Città, Nazione
+	SELECT Anno, Nome AS CittÃ , Nazione
     FROM OlimpiadeUniversitaria 
-        JOIN Città on (OlimpiadeUniversitaria.Città=Città.ID)
+        JOIN CittÃ  on (OlimpiadeUniversitaria.CittÃ =CittÃ .ID)
     ORDER BY Anno ASC;
     
 -- Query 6
 	SELECT Nome, Ori, Argenti, Bronzi
-    FROM Università
+    FROM UniversitÃ 
     ORDER BY Ori DESC, Argenti DESC, Bronzi DESC;
 
 -- Query 7   
@@ -82,4 +82,3 @@
     FROM Partecipa
         JOIN Squadra ON (Partecipa.Squadra=Squadra.ID)
     WHERE Olimpiade='2019' AND PosizioneClassifica = 1; -- rimpiazzare con olimpiade data
-    

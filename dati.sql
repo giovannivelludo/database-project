@@ -192,5 +192,6 @@ insert into Nazionalità values
 (18, 'Spagna');
 
 insert into Nazione_Olimpiade values
-('Italia', 2019),
-('Germania', 2019);
+('Germania', 2019),
+('Italia', 2017),
+('Spagna', 2015);

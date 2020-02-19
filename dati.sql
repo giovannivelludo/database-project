@@ -135,6 +135,7 @@ insert into CorsoDiLaurea values
 ('Ingegneria informatica', 'Università degli Studi di Padova'),
 ('Filosofia', 'Università degli Studi di Padova'),
 ('Psicopedagogia', 'Università degli Studi di Padova'),
+('Psicopedagogia', 'University of London'),
 ('Economia aziendale', 'ESMT Berlin'),
 ('Computer Science', 'Universidad Complutense de Madrid'),
 ('Marketing', 'Universidad Complutense de Madrid'),
@@ -151,7 +152,7 @@ insert into CorsoDiLaurea values
 insert into Studia values
 (1, 'Ingegneria informatica', 'Università degli Studi di Padova', 2019),
 (2, 'Psicopedagogia', 'Università degli Studi di Padova', 2019),
-(3, 'Psicopedagogia', 'Università degli Studi di Padova', 2019),
+(3, 'Psicopedagogia', 'University of London', 2019),
 (4, 'Filosofia', 'Università degli Studi di Padova', 2019),
 (5, 'Computer Science', 'Universidad Complutense de Madrid', 2019),
 (6, 'Design', 'Universidad Complutense de Madrid', 2019),
